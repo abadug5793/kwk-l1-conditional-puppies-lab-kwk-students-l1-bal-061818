@@ -7,10 +7,10 @@ def no_puppies(num_puppies)
 end
 no_puppies
 
-def less_puppies(number_of_puppies)
-  if number_of_puppies < 3
+def less_puppies(num_puppies)
+  if num_puppies < 3
     puts "Good Job!"
-  elsif number_of_puppies == 3
+  elsif num_puppies == 3
     puts "Slow Down!"
   else
     puts "Go back to animal restriction"
@@ -18,8 +18,8 @@ def less_puppies(number_of_puppies)
 end
 
 
-def some_puppies (number_of_puppies, max_puppy_allowance)
-  if number_of_puppies < (max_puppy_allowance/2)
+def some_puppies (num_puppies, max_puppy_allowance)
+  if num_puppies < (max_puppy_allowance/2)
     puts "Good Job!"
   else
     puts "Go back to puppy restriction"
@@ -27,10 +27,10 @@ def some_puppies (number_of_puppies, max_puppy_allowance)
 end
 
 
-def new_animal_accumulation(number_of_puppies, number_of_cats)
-  if number_of_puppies == 0 || number_of_cats == 0
+def new_animal_accumulation(num_puppies, num_cats)
+  if num_puppies == 0 || num_cats == 0
     puts "Good Job!"
-  else number_of_puppies >= 1 || number_of_cats >= 1
+  else num_puppies >= 1 || num_cats >= 1
     puts "Slow Down"
   end
 end
