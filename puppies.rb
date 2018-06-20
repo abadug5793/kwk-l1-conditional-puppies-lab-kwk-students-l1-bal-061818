@@ -16,7 +16,7 @@ def less_puppies(number_of_puppies)
     puts "Go back to animal restriction"
   end
 end
-end
+
 
 def some_puppies (number_of_puppies, max_puppy_allowance)
   if number_of_puppies < (max_puppy_allowance/2)
