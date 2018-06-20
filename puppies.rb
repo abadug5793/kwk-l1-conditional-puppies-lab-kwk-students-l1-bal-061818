@@ -5,6 +5,7 @@ def no_puppies(number_of_puppies)
     puts "Well done, Rachel!"
   end
 end
+no_puppies
 
 def less_puppies(number_of_puppies)
   if number_of_puppies < 3
