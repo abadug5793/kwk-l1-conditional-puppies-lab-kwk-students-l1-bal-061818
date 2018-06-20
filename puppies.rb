@@ -1,5 +1,5 @@
-def no_puppies(number_of_puppies)
-  if number_of_puppies > 0
+def no_puppies(num_puppies)
+  if num_puppies > 0
     puts "No more puppies"
   else
     puts "Well done, Rachel!"
