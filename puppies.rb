@@ -17,7 +17,7 @@ def less_puppies(num_puppies)
   end
 end
 
-less_puppies()
+less_puppies(3)
 
 def some_puppies (num_puppies, max)
   if num_puppies < (max/2)
@@ -26,7 +26,7 @@ def some_puppies (num_puppies, max)
     puts "Go back to puppy restriction"
   end
 end
-
+some_puppies(6, 4)
 
 def new_animal_accumulation(num_puppies, num_cats)
   if num_puppies == 0 || num_cats == 0
