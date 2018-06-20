@@ -1,3 +1,4 @@
+
 def no_puppies(num_puppies)
   if num_puppies > 0
     puts "No more puppies"
