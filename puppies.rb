@@ -17,6 +17,7 @@ def less_puppies(num_puppies)
   end
 end
 
+less_puppies()
 
 def some_puppies (num_puppies, max)
   if num_puppies < (max/2)
