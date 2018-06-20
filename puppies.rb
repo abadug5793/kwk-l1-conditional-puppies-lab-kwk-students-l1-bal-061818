@@ -18,8 +18,8 @@ def less_puppies(num_puppies)
 end
 
 
-def some_puppies (num_puppies, max_puppy_allowance)
-  if num_puppies < (max_puppy_allowance/2)
+def some_puppies (num_puppies, max)
+  if num_puppies < (max/2)
     puts "Good Job!"
   else
     puts "Go back to puppy restriction"
