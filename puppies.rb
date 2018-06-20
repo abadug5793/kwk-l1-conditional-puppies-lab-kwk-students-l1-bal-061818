@@ -35,3 +35,4 @@ def new_animal_accumulation(num_puppies, num_cats)
     puts "Slow Down"
   end
 end
+new_animal_accumulation(0, 3)
